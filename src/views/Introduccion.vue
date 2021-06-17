@@ -9,21 +9,21 @@
           i.fas.fa-info
       h1 Introducción
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    //- .bloque-texto-a debe ir acompañado de una de una de estas clases => 
+    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    .row.justify-content-center
+      .col-lg-11
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/introduccion/img1.svg', alt="Seguridad de la información").mx-auto
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p La seguridad de la información, hoy por hoy, es uno de los temas más importantes en el mundo tecnológico, debido al incremento elevado de los ataques cibernéticos a los que los usuarios están expuestos. Los smartphones pasaron de ser una moda a ser una herramienta de trabajo y/o también un estilo de vida. Los ciberatacantes, día a día, se las ingenian para que los usuarios caigan en sus nuevas fechorías, sin que estos últimos lo sepan; es por esta razón que hay organizaciones que exigen tratar los datos haciendo uso de estándares los cuales disminuyen esa brecha de riesgo.
     
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
-
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
-
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
+    .cajon.color-acento-contenido.p-4.mb-4
+        p(style=" color: #37A3A5;") En relación con la elaboración del componente, es importante especificar que se abordaron varios autores conocidos en el campo de la seguridad en las redes; se referencian en la bibliografía aquellos de quienes se tomaron los conceptos y ejemplos; respetando al igual que ellos, la recopilación y producción de material para el uso en educación. Es preciso señalar que el conocimiento es social y, por lo tanto, es para usarlo; cuando se investiga especialmente en el campo de la educación se busca aportar a la formación de quienes necesitan adquirir el conocimiento. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de las redes de datos.
 
 </template>
 
