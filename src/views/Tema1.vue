@@ -325,20 +325,80 @@
         figure
           img(src='@/assets/curso/tema1/img14.svg', alt="Cifrados", style="width:70%;").mx-auto
       .col-lg-7
-        //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        LineaTiempoD.color-acento-contenido
+        .row.align-items-start.mb-2
+          .col-auto        
+            .round--number
+              p 1
+          .col
+            .tarjeta.tarjeta--gris
+              p Funcionar continuamente sin supervisión humana. El sistema debe ser lo suficientemente fiable para poder ser ejecutado en segundo plano como parte del dispositivo o la red que está siendo observada.
+        
+        .row.align-items-start.mb-2
+          .col-auto        
+            .round--number
+              p 2
+          .col
+            .tarjeta.tarjeta--gris
+              p Ser tolerante a fallos en el sentido de que debe ser capaz de sobrevivir a una caída del sistema.
 
-          p.text-medium(numero="1" titulo="pendiente") Funcionar continuamente sin supervisión humana. El sistema debe ser lo suficientemente fiable para poder ser ejecutado en segundo plano como parte del dispositivo o la red que está siendo observada.
-          p.text-medium(numero="2" titulo="pendiente") Ser tolerante a fallos en el sentido de que debe ser capaz de sobrevivir a una caída del sistema.
-          p.text-medium(numero="3" titulo="pendiente") Ser resistente a perturbaciones, en el sentido en que puede monitorizarse a sí mismo para asegurarse de que no ha sido perturbado.
-          p.text-medium(numero="4" titulo="pendiente") Imponer mínima sobrecarga sobre el sistema. Un sistema que consume muchos recursos computacionales no debe ser utilizado.
-          p.text-medium(numero="5" titulo="pendiente") Observar desviaciones sobre el comportamiento estándar.
-          p.text-medium(numero="6" titulo="pendiente") Fácilmente adaptable al sistema operativo ya instalado, pues cada uno tiene un patrón de funcionamiento diferente y el mecanismo de defensa debe adaptarse de manera sencilla a esos patrones.
-          p.text-medium(numero="7" titulo="pendiente") Hacer frente a los cambios de comportamiento del sistema según se añaden nuevas aplicaciones al mismo
-          p.text-medium(numero="8" titulo="pendiente") Que ayude a identificar de dónde provienen los ataques que se sufren, y recoger evidencias que pueden ser usadas para identificar intrusos.
-          p.text-medium(numero="9" titulo="pendiente") Difícil de vulnerar y suministrar a los especialistas de seguridad cierta tranquilidad.
+        .row.align-items-start.mb-2
+          .col-auto        
+            .round--number
+              p 3
+          .col
+            .tarjeta.tarjeta--gris
+              p Ser resistente a perturbaciones, en el sentido en que puede monitorizarse a sí mismo para asegurarse de que no ha sido perturbado.
+        
+        .row.align-items-start.mb-2
+          .col-auto        
+            .round--number
+              p 4
+          .col
+            .tarjeta.tarjeta--gris
+              p Imponer mínima sobrecarga sobre el sistema. Un sistema que consume muchos recursos computacionales no debe ser utilizado.
+    
+    .row
+      .col-lg-12
+        .row.align-items-start.mb-2
+          .col-auto        
+            .round--number
+              p 5
+          .col
+            .tarjeta.tarjeta--gris
+              p Observar desviaciones sobre el comportamiento estándar.
+        
+        .row.align-items-start.mb-2
+          .col-auto        
+            .round--number
+              p 6
+          .col
+            .tarjeta.tarjeta--gris
+              p Fácilmente adaptable al sistema operativo ya instalado, pues cada uno tiene un patrón de funcionamiento diferente y el mecanismo de defensa debe adaptarse de manera sencilla a esos patrones.
 
+        .row.align-items-start.mb-2
+          .col-auto        
+            .round--number
+              p 7
+          .col
+            .tarjeta.tarjeta--gris
+              p Hacer frente a los cambios de comportamiento del sistema según se añaden nuevas aplicaciones al mismo.
+        
+        .row.align-items-start.mb-2
+          .col-auto        
+            .round--number
+              p 8
+          .col
+            .tarjeta.tarjeta--gris
+              p Que ayude a identificar de dónde provienen los ataques que se sufren, y recoger evidencias que pueden ser usadas para identificar intrusos.
+
+        .row.align-items-start.mb-5
+          .col-auto        
+            .round--number
+              p 9
+          .col
+            .tarjeta.tarjeta--gris
+              p Difícil de vulnerar y suministrar a los especialistas de seguridad cierta tranquilidad.
+    
     p.mb-5 Siguiendo este tema, Infotecs (2019) afirma que:
 
     .row.mb-5.justify-content-center
@@ -530,25 +590,25 @@
               
             tr
               th(colspan=3, style="background-color:#fff; border:none !important;")
-              th.text-center(colspan=5, style="background-color:#b6defd;") Magnitud del daño
+              th.text-center(colspan=5, style="background-color:#b6defd; border-top: 1px solid #000; border-right: 1px solid #000;") Magnitud del daño
             tr.text-center
               th(colspan=3, style="background-color:#fff; border:none !important;")
               th 1
               th 2
               th 3
               th 4
-              th 5
+              th(style="border-right: 1px solid #000;") 5
             tr
               
-              th(rowspan=6, style="background-color:#b6defd;") 
+              th(rowspan=6, style="background-color:#b6defd; border-top: 1px solid #000;") 
                 p.mb-0.texto-vertical Probabilidad de amenaza
-              th Frecuente
-              th 5
+              th(style="border-top: 1px solid #000;") Frecuente
+              th(style="border-top: 1px solid #000;") 5
               th 5
               th 10
               th 15
               th 20
-              th 25
+              th(style="border-right: 1px solid #000;") 25
               
             tr
             
@@ -559,7 +619,7 @@
               th 8
               th 12
               th 16
-              th 20
+              th(style="border-right: 1px solid #000;") 20
             tr
               
               
@@ -569,7 +629,7 @@
               th 6
               th 9
               th 12
-              th 15
+              th(style="border-right: 1px solid #000;") 15
             tr
               
               
@@ -579,7 +639,7 @@
               th 4
               th 6
               th 8
-              th 10
+              th(style="border-right: 1px solid #000;") 10
             tr
               
               
@@ -589,7 +649,7 @@
               th 2
               th 3
               th 4
-              th 5
+              th(style="border-right: 1px solid #000;") 5
 
     separador
 
@@ -756,16 +816,46 @@
     #t_1_11.titulo-segundo
       .h2 1.11 Requisitos de la seguridad
 
+    p.mb-5 La seguridad debe contar con requisitos mínimos entre los cuales se pueden enunciar los siguientes:
+
+    .row.justify-content-center.mb-5
+      .col-auto.p-0.mb-2
+        figure
+          img(src='@/assets/curso/tema1/img24.svg', alt="Parche en sistema operativo", style="width:100%;").mx-auto
+      .col-auto.p-0.mb-2
+        figure
+          img(src='@/assets/curso/tema1/img25.svg', alt="Seguridad em los datos de red", style="width:100%;").mx-auto
+      .col-auto.p-0.mb-2
+        figure
+          img(src='@/assets/curso/tema1/img26.svg', alt="Contraseñas robustas", style="width:100%;").mx-auto
+      .col-auto.p-0.mb-2
+        figure
+          img(src='@/assets/curso/tema1/img27.svg', alt="Cifrado para autenticación", style="width:100%;").mx-auto
+      .col-auto.p-0.mb-2
+        figure
+          img(src='@/assets/curso/tema1/img28.svg', alt="Protección de software", style="width:100%;").mx-auto
+      .col-auto.p-0.mb-2
+        figure
+          img(src='@/assets/curso/tema1/img29.svg', alt="Seguridad física", style="width:100%;").mx-auto
+
+
     #t_1_12.titulo-segundo
       .h2 1.12 Revisión y actualizaciones de la política de la seguridad
 
 
+    .row.justify-content-center.mb-4
+      .col-lg-7.align-self-center
+        p.mb-4 Es una de las etapas necesarias una vez que las políticas ya están funcionando dentro de una organización, no obstante, el tiempo que transcurre desde que éstas ya están implementadas dentro de la organización hasta su primera revisión es variable, ya que no existe un tiempo determinado. Este periodo de tiempo no está estipulado, sin embargo, varios ingenieros y analistas de sistemas de seguridad informática opinan que la revisión de las políticas de seguridad debe estar dentro de un lapso de entre seis (6) meses y un año, por ser tiempo suficiente para encontrar patrones que requieren algún tipo de ajuste. 
+        .cajon.color-acento-contenido.p-4.mb-4
+          p El periodo de revisión de las políticas debe ser establecido por el comité de seguridad de manera empírica, dependiendo de diversos factores que afectan a la organización entre los que se encuentran la experiencia del personal de seguridad, las necesidades de seguridad que se tengan, cambios en la organización, el alza en número de incidentes, entre otros. 
+
+      .col-lg-5.align-self-center
+        igure
+          img(src='@/assets/curso/tema1/img30.svg', alt="Revisión y actualizaciones de la política de la seguridad", style="width:80%;").mx-auto
+
+    p.mb-4 Para que cualquier metodología establecida funcione, todos los usuarios deben haber sido capacitados previamente en las PSI, una vez capacitados todos los usuarios pueden participar en la propuesta de modificaciones, ajustes o cambios para la mejora de las PSI. Las propuestas y observaciones deben pasar por un primer filtro, el cual consiste en la revisión de dicha propuesta por parte del administrador o responsable donde surgió la propuesta. Una vez que el personal responsable y administradores acuerdan que la propuesta es viable y que es en beneficio para la organización, acuerdan entregar el trabajo al personal de seguridad que revisa, evalúa, analiza y estudia las observaciones para elaborar una propuesta que será presentada al comité de seguridad para su aprobación.
 
 
-
-
-
-  
 </template>
 
 <script>
