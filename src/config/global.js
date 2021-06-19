@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Hardware y software de seguridad en la red',
     descripcionCurso:
       'El aprendiz debe apropiar los conocimientos y actividades que le permitan interpretar e implementar el plan de seguridad de las redes utilizadas y los datos que circulan a través de ellas, cumpliendo las normas establecidas vigentes.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo2.png'),
   },
   menuPrincipal: {
     menu: [
