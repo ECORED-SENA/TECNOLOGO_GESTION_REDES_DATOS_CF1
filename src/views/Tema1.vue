@@ -371,7 +371,7 @@
     .row.justify-content-center.mb-3
       .col-lg-4
         figure
-          img(src='@/assets/curso/tema1/img14.svg', alt="Cifrados", style="width:70%;").mx-auto
+          img(src='@/assets/curso/tema1/img14.svg', alt="Cifrados", style="width:100%;").mx-auto
       .col-lg-7
         .row.align-items-start.mb-2
           .col-auto        
