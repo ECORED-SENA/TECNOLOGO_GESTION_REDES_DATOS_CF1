@@ -120,7 +120,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema1/tabsC/img1.svg', alt='Texto que describa la imagen').mx-auto
+              img(src='@/assets/curso/tema1/tabsC/img1.svg', alt='Degradación', style="width:70%;").mx-auto
               
           .col-md-6.align-self-center
             h2.mb-4 Degradación fraudulenta del servicio
@@ -130,7 +130,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema1/tabsC/img2.svg', alt='Texto que describa la imagen').mx-auto
+              img(src='@/assets/curso/tema1/tabsC/img2.svg', alt='Modificación', style="width:85%;").mx-auto
               
           .col-md-6.align-self-center
             h2.mb-4 Modificación de mensajes
@@ -140,7 +140,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema1/tabsC/img3.svg', alt='Texto que describa la imagen').mx-auto
+              img(src='@/assets/curso/tema1/tabsC/img3.svg', alt='Repetición', style="width:85%;").mx-auto
               
           .col-md-6.align-self-center
             h2.mb-4 Repetición
@@ -150,7 +150,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema1/tabsC/img4.svg', alt='Texto que describa la imagen').mx-auto
+              img(src='@/assets/curso/tema1/tabsC/img4.svg', alt='Suplantación', style="width:85%").mx-auto
               
           .col-md-6.align-self-center
             h2.mb-4 Suplantación de identidad
@@ -289,10 +289,58 @@
 
     h3.mb-5 Firewalls
     p.mb-5 Sirven para proteger el equipo de conexiones salientes o entrantes a la red. Existen firewalls de software y de hardware; entre sus principales beneficios se encuentran:
-    figure.mb-5
-      img(src='@/assets/curso/tema1/img11.svg', alt="Firewalls").mx-auto
+    
+    ImagenInfografica.color-secundario.mb-4
 
-    h3.mb-4 Detección de intrusos
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema1/img11.svg', alt="Firewalls de software y de Hardware").mx-auto
+          
+
+      .tarjeta.tarjeta--azul.p-3(x="76%" y="11%")
+        .h5.mb-2 1
+        p Evitan los ataque de otros servidores a la red privada.
+
+      .tarjeta.tarjeta--azul.p-3(x="71%" y="61%")
+        .h5.mb-2 2
+        p Permiten al administrador de la red definir un embudo, manteniendo al margen los usuarios no autorizados.
+
+      .tarjeta.tarjeta--azul.p-3(x="48%" y="83%")
+        .h5.mb-2 3
+        p Permiten monitorear la seguridad, cuando aparece alguna actividad sospechosa, esto generará una alarma.
+
+      .tarjeta.tarjeta--azul.p-3(x="30%" y="88%")
+        .h5.mb-2 4
+        p Un hacker prefiere una computadora sin firewalls.
+
+      .tarjeta.tarjeta--azul.p-3(x="23%" y="59%")
+        .h5.mb-2 5
+        p Concentran la seguridad, centralizan los accesos.
+
+      .tarjeta.tarjeta--azul.p-3(x="30%" y="40%")
+        .h5.mb-2 6
+        p Generan alarmas de seguridad. Traducen direcciones (NAT).
+      
+      .tarjeta.tarjeta--azul.p-3(x="45%" y="29%")
+        .h5.mb-2 7
+        p Monitorean y registran el uso de servicios de WWW y FTP.
+
+      .tarjeta.tarjeta--azul.p-3(x="52%" y="12%")
+        .h5.mb-2 8
+        p Controlan el uso de internet. Permiten bloquear el material no adecuado (Seguridad en la red, s.f.).
+
+
+    .row.mb-5.justify-content-end
+      .col-lg-5
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Firewall.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Firewalls de software y de hardware
+
+
+
+    h3.mb-5 Detección de intrusos
     .row.justify-content-center.mb-4
       .col-lg-11
         .bloque-texto-a.color-acento-contenido.p-2.p-md-3.mb-5 
@@ -320,7 +368,7 @@
     p.mb-4 Según B2B consultores (2020): <br> <br> Cualquier sistema de detección de intrusos, sea cual sea su tipo y base de funcionamiento, debería contar con las siguientes características:
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-lg-4
         figure
           img(src='@/assets/curso/tema1/img14.svg', alt="Cifrados", style="width:70%;").mx-auto
@@ -576,7 +624,7 @@
     .cajon.color-acento-contenido.p-4.mb-4
           p Es importante reconocer que los riesgos son dinámicos, cambiantes, con diferentes caracteres de vulnerabilidad y con percepción distinta dependiendo del área que lo perciba, por tanto, deben participar los especialistas de todas las dependencias de la organización (gerencia, coordinación, administración financiera, técnicos, soporte técnico externo etc.). Como conclusión de esta representación gráfica se puede observar que entre más alta la probabilidad de amenaza y magnitud de daño, más grande será el riesgo y el peligro al sistema, por lo cual se debe implementar medidas de protección. Esta representación se evidencia en la siguiente tabla:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-2
       h5 Representación gráfica análisis
 
     .row.justify-content-center.mb-5
@@ -684,7 +732,7 @@
     p.mb-4 La matriz de control también permite identificar los riesgos y plantear estrategias enfocadas al desarrollo del modelo de gestión pertinente.
     p.mb-4 El método utilizado para el diseño de la matriz, es el Delphi, donde se consulta a los especialistas o expertos temáticos acerca del medio y las actividades de la organización o del proyecto. En la matriz se establecen y plasman los componentes, los recursos y las posibles amenazas sobre el objeto de análisis, tal como se muestra en la siguiente tabla
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-2
       h5 Componentes matrices de control
 
     .row.justify-content-center.mb-4

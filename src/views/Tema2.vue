@@ -26,10 +26,10 @@
 
     .row.justify-content-center
       .col-lg-11
-        .tarjeta.color-secundario.p-4.mb-4
+        .tarjeta.tarjeta--azul.p-4.mb-4
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema2/img4.svg")
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/curso/tema2/img4.svg", style="width:110px;").mx-auto
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -42,10 +42,10 @@
     
     .row.justify-content-center
       .col-lg-11
-        .tarjeta.color-secundario.p-4.mb-4
+        .tarjeta.tarjeta--azul.p-4.mb-4
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema2/img4.svg")
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/curso/tema2/img4.svg", style="width:110px;").mx-auto
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -58,10 +58,10 @@
     
     .row.justify-content-center
       .col-lg-11
-        .tarjeta.color-secundario.p-4.mb-4
+        .tarjeta.tarjeta--azul.p-4.mb-4
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema2/img4.svg")
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/curso/tema2/img4.svg", style="width:110px;").mx-auto
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -288,7 +288,7 @@
               .col-6
                 figure
                   img(src='@/assets/curso/tema2/img17.svg', alt='Estructura', style="width:200px").mx-auto
-            .h2.text-center Estabilidad
+            .h2.text-center Estructura
             p.text-center La NTC ISO 27001, posee una estructura de alto nivel, llamada también Anexo SL, en la cual se abarcan diferentes aspectos que se pueden visualizar en la siguiente tabla.
 
     .titulo-sexto.color-acento-contenido
