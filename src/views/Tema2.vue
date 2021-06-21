@@ -397,6 +397,10 @@
       p.mb-0 Las organizaciones deben cumplir con los requisitos establecidos por la NTC ISO 27001 y también con las buenas prácticas y controles definidos por la ISO 27002 (ISOTools Excellence, s.f.).
 
 
+
+
+
+
 </template>
 
 <script>
