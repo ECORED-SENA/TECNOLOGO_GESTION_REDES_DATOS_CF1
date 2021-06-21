@@ -583,73 +583,73 @@
       .col-lg-12
         .tabla-b.color-secundario.mb-5
           .tabla-b__header
-            h4.mb-0 Análisis de riesgo
+            h4.mb-0(style="font-size:25px;") Análisis de riesgo
           tbody.text-center
             tr
-              th.text-center(colspan=8, style="border:none !important;") Riesgo = Probabilidad de amenaza * Magnitud del daño
+              th.text-center(colspan=8, style="border:none !important; font-size:20px;") Riesgo = Probabilidad de amenaza * Magnitud del daño
               
             tr
               th(colspan=3, style="background-color:#fff; border:none !important;")
-              th.text-center(colspan=5, style="background-color:#b6defd; border-top: 1px solid #000; border-right: 1px solid #000;") Magnitud del daño
+              th.text-center(colspan=5, style="font-size:20px; background-color:#b6defd; border-top: 1px solid #000; border-right: 1px solid #000;") Magnitud del daño
             tr.text-center
               th(colspan=3, style="background-color:#fff; border:none !important;")
-              th 1
-              th 2
-              th 3
-              th 4
-              th(style="border-right: 1px solid #000;") 5
+              th(style="font-size:20px;") 1
+              th(style="font-size:20px;") 2
+              th(style="font-size:20px;") 3
+              th(style="font-size:20px;") 4
+              th(style="border-right: 1px solid #000; font-size:20px;") 5
             tr
               
-              th(rowspan=6, style="background-color:#b6defd; border-top: 1px solid #000;") 
+              th(rowspan=6, style="font-size:20px;background-color:#b6defd; border-top: 1px solid #000;") 
                 p.mb-0.texto-vertical Probabilidad de amenaza
-              th(style="border-top: 1px solid #000;") Frecuente
-              th(style="border-top: 1px solid #000;") 5
-              th 5
-              th 10
-              th 15
-              th 20
-              th(style="border-right: 1px solid #000;") 25
+              th(style="font-size:20px;border-top: 1px solid #000;") Frecuente
+              th(style="font-size:20px;border-top: 1px solid #000;") 5
+              th(style="font-size:20px;background-color:#ff3;") 5
+              th(style="font-size:20px;background-color:#ff9b04;") 10
+              th(style="font-size:20px;background-color:#f00;") 15
+              th(style="font-size:20px;background-color:#f00;") 20
+              th(style="font-size:20px;border-right: 1px solid #000;background-color:#f00;") 25
               
             tr
             
               
-              th Probable
-              th 4
-              th 4
-              th 8
-              th 12
-              th 16
-              th(style="border-right: 1px solid #000;") 20
+              th(style="font-size:20px;") Probable
+              th(style="font-size:20px;") 4
+              th(style="font-size:20px;background-color:#0f0;") 4
+              th(style="font-size:20px;background-color:#ff3;") 8
+              th(style="font-size:20px;background-color:#ff9b04;") 12
+              th(style="font-size:20px;background-color:#f00;") 16
+              th(style="border-right: 1px solid #000; font-size:20px; background-color:#f00;") 20
             tr
               
               
-              th Mediana
-              th 3
-              th 3
-              th 6
-              th 9
-              th 12
-              th(style="border-right: 1px solid #000;") 15
+              th(style="font-size:20px;") Mediana
+              th(style="font-size:20px;") 3
+              th(style="font-size:20px; background-color:#0f0;") 3
+              th(style="font-size:20px; background-color:#ff3;") 6
+              th(style="font-size:20px; background-color:#ff3;") 9
+              th(style="font-size:20px; background-color:#ff9b04;") 12
+              th(style="border-right: 1px solid #000;font-size:20px; background-color:#f00;") 15
             tr
               
               
-              th Baja
-              th 2
-              th 2
-              th 4
-              th 6
-              th 8
-              th(style="border-right: 1px solid #000;") 10
+              th(style="font-size:20px;") Baja
+              th(style="font-size:20px;") 2
+              th(style="font-size:20px; background-color:#0f0;") 2
+              th(style="font-size:20px; background-color:#0f0;") 4
+              th(style="font-size:20px; background-color:#ff3;") 6
+              th(style="font-size:20px; background-color:#ff3;") 8
+              th(style="border-right: 1px solid #000;font-size:20px; background-color:#ff9b04;") 10
             tr
               
               
-              th insignificante
-              th 1
-              th 1
-              th 2
-              th 3
-              th 4
-              th(style="border-right: 1px solid #000;") 5
+              th(style="font-size:20px;") insignificante
+              th(style="font-size:20px;") 1
+              th(style="background-color:#0f0; font-size:20px;") 1
+              th(style="background-color:#0f0; font-size:20px;") 2
+              th(style="background-color:#0f0; font-size:20px;") 3
+              th(style="background-color:#0f0; font-size:20px;") 4
+              th(style="border-right: 1px solid #000; font-size:20px; background-color:#ff3;") 5
 
     separador
 
@@ -697,98 +697,138 @@
               th.text-center(colspan=8,style="background-color:#fff; border: none !important;")
               
             tr
-              th(colspan=3, style="background-color:#fff; border-top: 1px solid #000;") Matriz de control de riesgo
-              th.text-center(colspan=5, style="background-color:#b6defd;border-top: 1px solid #000; border-right: 1px solid #000;") Probabilidad de  amenaza
+              th(colspan=3, style="font-size:16px; background-color:#fff; border-top: 1px solid #000;") Matriz de control de riesgo
+              th.text-center(colspan=5, style="font-size:16px; background-color:#b6defd;border-top: 1px solid #000; border-right: 1px solid #000;") Probabilidad de  amenaza
 
             tr.text-center
-              th(colspan=1,rowspan=2, style="background-color:#fff;") Elementos de información
-              th(rowspan=2, style="background-color:#ffffc4;") Magnitud de daño
-              th(colspan=2, style="background-color:#fff;") Criminalidad
-              th(colspan=2, style="background-color:#fff;") Sucesos físicos 
-              th(colspan=2, style="background-color:#fff;border-right: 1px solid #000;") Negligencia
+              th(colspan=1,rowspan=2, style="font-size:16px; background-color:#fff;") Elementos de información
+              th(rowspan=2, style="font-size:16px; background-color:#ffffc4;") Magnitud de daño
+              th(colspan=2, style="font-size:16px; background-color:#fff;") Criminalidad
+              th(colspan=2, style="font-size:16px; background-color:#fff;") Sucesos físicos 
+              th(colspan=2, style="font-size:16px; background-color:#fff;border-right: 1px solid #000;") Negligencia
               
             tr
-              th(style="background-color:#fff;") Robo
-              th(style="background-color:#fff;") Virus
-              th(style="background-color:#fff;") Incendio
-              th(style="background-color:#fff;") Falta de corriente
-              th(style="background-color:#fff;") Compartir contraseñas
-              th(style="background-color:#fff;border-right: 1px solid #000;") No cifrar datos criticos
+              th(style="font-size:16px; background-color:#fff;") Robo
+              th(style="font-size:16px; background-color:#fff;") Virus
+              th(style="font-size:16px; background-color:#fff;") Incendio
+              th(style="font-size:16px; background-color:#fff;") Falta de corriente
+              th(style="font-size:16px; background-color:#fff;") Compartir contraseñas
+              th(style="font-size:16px; background-color:#fff;border-right: 1px solid #000;") No cifrar datos criticos
               
-            tr(style="background-color:#b6defd;")
-              th(colspan=2,style="background-color:#ffff;") Datos e información
-              th 3
-              th 4
-              th 2
-              th 3
-              th 5
-              th(style="border-right: 1px solid #000;") 3
+            tr(style="font-size:16px; background-color:#b6defd;")
+              th(colspan=2,style="font-size:16px; background-color:#ffff;") Datos e información
+              th(style="font-size:16px;") 3
+              th(style="font-size:16px;") 4
+              th(style="font-size:16px;") 2
+              th(style="font-size:16px;") 3
+              th(style="font-size:16px;") 5
+              th(style="font-size:16px; border-right: 1px solid #000;") 3
+              
+
+
+
             tr
-              th(style="background-color:#fff;") RR.HH
-              th(style="background-color:#ffffc4;")  3
-              th 9
-              th 12
-              th 6
-              th 9
-              th 15
-              th(style="border-right: 1px solid #000;") 9
+              th(style="font-size:16px; background-color:#fff;") RR.HH
+              th(style="font-size:16px; background-color:#ffffc4;")  3
+              th(style="font-size:16px; background-color:#ff3;") 9
+              th(style="font-size:16px; background-color:#ff9b04;") 12
+              th(style="font-size:16px; background-color:#0f0;") 6
+              th(style="font-size:16px; background-color:#ff3;") 9
+              th(style="font-size:16px; background-color:#f00;") 15
+              th(style="font-size:16px; border-right: 1px solid #000; background-color:#ff3;") 9
             tr
-              th Finanzas
-              th(style="background-color:#ffffc4;") 4
-              th 12
-              th 16
-              th 8
-              th 12
-              th 20
-              th(style="border-right: 1px solid #000;") 12
+              th(style="font-size:16px;") Finanzas
+              th(style="background-color:#ffffc4; font-size:16px;") 4
+              th(style="font-size:16px; background-color:#ff9b04;") 12
+              th(style="font-size:16px; background-color:#f00;") 16
+              th(style="font-size:16px; background-color:#ff3;") 8
+              th(style="font-size:16px; background-color:#ff9b04;") 12
+              th(style="font-size:16px; background-color:#f00;") 20
+              th(style="border-right: 1px solid #000; font-size:16px; background-color:#ff9b04;") 12
             tr
-              th(colspan=2, style="background-color:#fff;") Sistemas de información
+              th(colspan=2, style="font-size:16px; background-color:#fff;") Sistemas de información
               th(colspan=6,style="border-right: 1px solid #000;")
             tr
-              th Computadores
-              th(style="background-color:#ffffc4;")  2
-              th 6
-              th 8
-              th 4
-              th 6
-              th 10
-              th(style="border-right: 1px solid #000;") 6
+              th(style="font-size:18px;") Computadores
+              th(style="font-size:18px; background-color:#ffffc4;")  2
+              th(style="font-size:16px; background-color:#0f0;") 6
+              th(style="font-size:16px; background-color:#ff3;") 8
+              th(style="font-size:16px; background-color:#0f0;") 4
+              th(style="font-size:16px; background-color:#0f0;") 6
+              th(style="font-size:16px; background-color:#ff9b04;") 10
+              th(style="font-size:16px; border-right: 1px solid #000; background-color:#0f0;") 6
             tr
-              th(style="background-color:#ffff;") Portatiles
-              th(style="background-color:#ffffc4;") 3
-              th 9
-              th 12
-              th 6
-              th 9
-              th 15
-              th(style="border-right: 1px solid #000;") 9
+              th(style="font-size:16px; background-color:#ffff;") Portatiles
+              th(style="font-size:16px; background-color:#ffffc4;") 3
+              th(style="font-size:16px; background-color:#ff3;") 9
+              th(style="font-size:16px; background-color:#ff9b04;") 12
+              th(style="font-size:16px; background-color:#0f0;") 6
+              th(style="font-size:16px; background-color:#ff3;") 9
+              th(style="font-size:16px; background-color:#f00;") 15
+              th(style="border-right: 1px solid #000; font-size:16px; background-color:#ff3;") 9
             tr
-              th(colspan=2, style="background-color:#fff;") Personal
+              th(colspan=2, style="font-size:16px; background-color:#fff;") Personal
               th(colspan=6, style="border-right: 1px solid #000;")
             tr
-              th(style="background-color:#ffff;") Coordinador
-              th(style="background-color:#ffffc4;")  4
-              th 12
-              th 16
-              th 8
-              th 12
-              th 20
-              th(style="border-right: 1px solid #000;") 12
+              th(style="font-size:16px; background-color:#ffff;") Coordinador
+              th(style="font-size:16px; background-color:#ffffc4;")  4
+              th(style="font-size:16px; background-color:#ff9b04;") 12
+              th(style="font-size:16px; background-color:#f00;") 16
+              th(style="font-size:16px; background-color:#ff3;") 8
+              th(style="font-size:16px; background-color:#ff9b04;") 12
+              th(style="font-size:16px; background-color:#f00;") 20
+              th(style="border-right: 1px solid #000; font-size:16px; background-color:#ff9b04;") 12
             tr
-              th Personal tecnico
-              th(style="background-color:#ffffc4;") 5
-              th 15
-              th 20
-              th 10
-              th 15
-              th 25
-              th(style="border-right: 1px solid #000;") 15
+              th(style="font-size:16px;") Personal tecnico
+              th(style="font-size:16px; background-color:#ffffc4;") 5
+              th(style="font-size:16px; background-color:#f00;") 15
+              th(style="font-size:16px; background-color:#f00;") 20
+              th(style="font-size:16px; background-color:#ff9b04;") 10
+              th(style="font-size:16px; background-color:#f00;") 15
+              th(style="font-size:16px; background-color:#f00;") 25
+              th(style="border-right: 1px solid #000; font-size:16px; background-color:#f00;") 15
+
+    .row.justify-content-center.mb-4
+      .col-lg-8
+        .tabla-b.color-secundario.mb-5
+          tbody.text-start
+              
+            tr
+              td(colspan=1, style="font-size:16px;")
+                .row.justify-content-center
+                  .col-auto(style=" background-color:#f00;")
+                    p.p-4
+              td(colspan=5, style="font-size:16px; background-color:#fff;") Riesgo muy grave. Requieren mitigación: planes de actuación correctivas. Requiere medidas correctivas urgentes. No se debe iniciar el proyecto sin la apicación de medidas preventivas urgentes y sin acotar sólidamente el riesgo.
+            
+            tr
+              td(colspan=1, style="font-size:16px; ")
+                .row.justify-content-center
+                  .col-auto(style="background-color:#ff9b04;")
+                    p.p-4 
+              td(colspan=5, style="font-size:16px; background-color:#fff;") Riesgo importante. Medidas preventivas obligatorias. Se deben controlar fuertemente las variables de riesgo durante el proyecto.
+
+            tr
+              td(colspan=1, style="font-size:16px;")
+                .row.justify-content-center
+                  .col-auto(style=" background-color:#ff3;")
+                    p.p-4 
+              td(colspan=5, style="font-size:16px; background-color:#fff;") Riesgo apreciable. Necesitan investigación: planes de actuación  preventivos. Estudiar económicamente si es posible introducir medidas preventivas para reducir el nivel de riesgo. Si no fuera posible, mantener  las variables controladas.
+            
+            tr
+              td(colspan=1, style="font-size:16px;")
+                .row.justify-content-center
+                  .col-auto(style="background-color:#0f0;")
+                    p.p-4 
+              td(colspan=5, style="font-size:16px; background-color:#fff;") Riesgo marginal. Necesitan monitoreo: planes de actuación detectivos. Se vigilará aunque no requiere medidas preventivas de partida.
+            
+
+
+
 
     .cajon.color-acento-contenido.p-4.mb-4
       p La matriz se construye ubicando los recursos amenazados (componentes) encabezando las filas y las amenazas encabezando las columnas. Los componentes se refieren a los recursos que se quieren proteger y las amenazas a los eventos negativos que puedan generar pérdida o afectar los componentes. Cuando se ha identificado los riesgos, se determina la probabilidad de ocurrencia y el valor de la misma, luego, se realizan los procesos de evaluación y estimación del riesgo.
 
     separador
-
 
     #t_1_10.titulo-segundo
       .h2 1.10 Estimación de la vulnerabilidad
