@@ -207,7 +207,7 @@
           .titulo-segundo.mb-4
             h3 Autenticación
           p.mb-4 El procedimiento de autenticación se lleva a cabo por parte del administrador de servicios quien autoriza los servicios a ejecutar en el dominio y los usuarios permitidos para utilizar las herramientas del sistema informático; los tipos de autenticación que se pueden configurar son los siguientes.
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     
@@ -239,7 +239,7 @@
           .titulo-segundo.mb-4
             h3 Auditorías
           p.mb-4 Es el estudio que comprende el análisis y gestión de sistemas llevados a cabo por profesionales para identificar, enumerar y posteriormente describir las diversas vulnerabilidades que pudieran presentarse en una revisión exhaustiva de las estaciones de trabajo, redes de comunicaciones o servidores. Una vez obtenidos los resultados, se detallan, archivan y reportan a los responsables quienes deberán establecer medidas preventivas de refuerzo y/o corrección siguiendo siempre un proceso secuencial que permita a los administradores mejorar la seguridad de sus sistemas aprendiendo de los errores cometidos con anterioridad (Cómo administrar tu propio negocio, 2014).
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
@@ -612,7 +612,7 @@
           .titulo-segundo.mb-4
             h3 Análisis de seguridad de la red
           p.mb-4 El análisis de la seguridad en la red se debe realizar para detectar irregularidades, comportamiento inusual de usuarios y demás amenazas. Para ello, se almacenan datos de la organización, se convierten en información accionable, de manera que los profesionales de tecnología de la información (TI) actúen con rapidez y se minimicen los riesgos.
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
