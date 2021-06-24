@@ -8,7 +8,7 @@
         span 2
       h1 Implementación
 
-    p.mb-4 El desarrollo de un plan de seguridad de red consiste en hacer las preguntas correctas y sus respuestas impulsarán la implementación. Al formular un plan de seguridad de red razonable, se pueden hacer estas preguntas importantes, tales como:
+    p.mb-4 El desarrollo de un plan de seguridad de red consiste en hacer las preguntas correctas y sus respuestas impulsarán la implementación. Al formular un plan de seguridad de red razonable, se pueden hacer preguntas importantes, tales como:
     
     .row.justify-content-center.mb-5
       .col-auto.p-0
@@ -33,8 +33,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-4 Sistema de gestión de seguridad de la Contraloría general de la República
-                  p.text-medium Políticas del sistema de gestión de seguridad y la importancia   del rol del tecnólogo como parte activa de la seguridad en la Entidad.
+                  h3.mb-4 Sistema de gestión de seguridad de la Contraloría General de la República
+                  p.text-medium Políticas del sistema de gestión de seguridad y la importancia   del rol del tecnólogo como parte activa de la seguridad en la entidad.
                 .col-sm-auto
                   a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo-1.pdf')" target="_blank")
                     span Descargar
@@ -49,14 +49,14 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-4 Subsistema de gestión de seguridad de la información del Ministerio de la Salud
-                  p.text-medium Políticas del sistema de gestión de seguridad para divulgar el adecuado tratamiento de la información en la Superintendencia Nacional de la Salud.
+                  h3.mb-4 Subsistema de gestión de Seguridad de la Información del Ministerio de la Salud
+                  p.text-medium Políticas del sistema de gestión de seguridad para divulgar el adecuado tratamiento de la información en la Superintendencia Nacional de Salud.
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo-1.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo-2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-11
         .tarjeta.tarjeta--azul.p-4.mb-4
           .row.justify-content-around.align-items-center
@@ -65,10 +65,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-4 Seguridad en Tecnología de la información DIAN
+                  h3.mb-4 Seguridad en Tecnología de la Información DIAN
                   p.text-medium Políticas del sistema de gestión de seguridad.
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo-1.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo-3.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -132,7 +132,7 @@
         figure
         img(src="@/assets/curso/tema2/img5.svg", style="width:70%").mx-auto    
 
-
+    separador.mb-4
 
     #t_2_2.titulo-segundo
       .h2 2.2 Plan de trabajo para establecer políticas de seguridad
@@ -168,12 +168,12 @@
         .row.justify-content-center
           .col-xl-8.align-self-center
             h2 Evaluación de riesgos
-            p Dstablecer qué pone en peligro los activos anteriores. Por ejemplo, los virus informáticos, hackers, daños físicos o errores de los funcionarios. 
+            p Establecer qué pone en peligro los activos anteriores. Por ejemplo, los virus informáticos, hackers, daños físicos o errores de los funcionarios. 
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/tema2/img8.svg', alt='Texto que describa la imagen', style="width:100%;").mx-auto
 
-      .tarjeta.color-secundario--borde.p-4(titulo="PASO 1 ")
+      .tarjeta.color-secundario--borde.p-4(titulo="PASO 3 ")
         
         .row.justify-content-center
           .col-xl-8.align-self-center
@@ -184,17 +184,17 @@
               img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen', style="width:100%;").mx-auto
 
 
-      .tarjeta.color-secundario--borde.p-4(titulo="PASO 2 ")
+      .tarjeta.color-secundario--borde.p-4(titulo="PASO 4 ")
         
         .row.justify-content-center
           .col-xl-8.align-self-center
             h2 Tomar las precauciones adecuadas
-            p Una vez identificados los riesgos decidir los pasos a seguir para asegurar que el negocio operará normalmente si ocurre una crisis. Por ejemplo, restringir el acceso a servidores o instalar un firewall de hardware (Noriega, 2016). 
+            p Una vez identificados los riesgos, decidir los pasos a seguir para asegurar que el negocio operará normalmente si ocurre una crisis. Por ejemplo, restringir el acceso a servidores o instalar un firewall de hardware (Noriega, 2016). 
           .col-xl-4.mb-4
             figure
               img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen', style="width:100%;").mx-auto
 
-    separador
+    separador.mb-4
 
     #t_2_3.titulo-segundo
       .h2 2.3 Recomendaciones para implementar políticas
@@ -235,9 +235,9 @@
           .tarjeta.tarjeta--azul
             .p-4
               h3 Administrar bien las cuentas privilegiadas
-              p Gestionar correctamente las cuentas es vital para evitar riesgos de seguridad informática. Es importante controlar accesos a las cuentas privilegiadas de la organización, reducir al mínimo el número de cuentas; evitando así las brechas de seguridad (Gb-advisor. (2019).
+              p Gestionar correctamente las cuentas es vital para evitar riesgos de seguridad informática. Es importante controlar accesos a las cuentas privilegiadas de la organización, reducir al mínimo el número de cuentas; evitando así las brechas de seguridad (Gb-advisor, 2019).
 
-    separador
+    separador.mb-4
 
     #t_2_4.titulo-segundo
       .h2 2.4 Normas y procedimientos
@@ -264,7 +264,7 @@
               //p.text-end.mb-0
                 b -  Artículo 18,  Acuerdo 617 de 2018
 
-    separador
+    separador.mb-4
 
     #t_2_5.titulo-segundo
       .h2 2.5 Norma Técnica Colombiana NTC-ISO/IEC 27001
@@ -280,7 +280,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img16.svg', alt='Objetivo', style="width:200px").mx-auto
               
-            .h2.text-center Resistencia
+            .h2.text-center Objetivo
             p.text-center Implementar un SGSI con base en NTC ISO 27001 tiene como objetivo evaluar riesgos aplicando los controles existentes y, de ese modo, lograr su reducción o eliminación total. Las organizaciones que utilicen la ISO 27001 logran una ventaja competitiva y mejoran la imagen de marca.
           
           .col-md.tarjeta.color-acento-contenido.p-5
@@ -299,8 +299,8 @@
         
         thead
           tr
-            th.h3(style='width: 50%; background-color: rgb(236 242 255);') Aspecto
-            th.h3(style=' background-color: rgb(236 242 255);') Contenido    
+            th.h3(style='width: 50%; background-color: rgb(236 242 255); color:#37A3A5;') Aspecto
+            th.h3(style=' background-color: rgb(236 242 255); color:#37A3A5;') Contenido    
         tbody
           tr
             td.text-center Objeto y campo de aplicación
@@ -315,7 +315,7 @@
           tr
             td.text-center Términos y definiciones
             td 
-              | Se describe la terminología que se utiliza a lo largo de la norma
+              | Se describe la terminología que se utiliza a lo largo de la norma.
           
           tr
             td.text-center Contexto de la organización
@@ -325,7 +325,7 @@
           tr
             td.text-center Liderazgo
             td 
-              | Permite que todo el personal involucrado en el SGSI participe activamente en la implementación de la norma ISO 27001
+              | Permite que todo el personal involucrado en el SGSI participe activamente en la implementación de la norma ISO 27001.
               
           tr
             td.text-center Planificación

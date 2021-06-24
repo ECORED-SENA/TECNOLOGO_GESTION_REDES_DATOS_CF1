@@ -246,7 +246,7 @@ export default {
     },
     {
       referencia:
-        'Seguinfo. (2008). Políticas, normas, procedimientos de seguridad y otros documentos de un SGS',
+        'Seguinfo. (2008). Políticas, normas, procedimientos de seguridad y otros documentos de un SGSI',
       link:
         'https://seguinfo.wordpress.com/2008/07/31/politicas-normas-procedimientos-de-seguridad-y-otros-documentos-de-un-sgsi/',
     },
@@ -271,7 +271,7 @@ export default {
     {
       termino: 'Amenaza',
       significado:
-        'circunstancia que tiene el potencial de causar daños o pérdidas puede ser en forma de robo, destrucción, divulgación, modificación de datos o denegación de servicio (DOS).',
+        'circunstancia que tiene el potencial de causar daños o pérdidas, puede ser en forma de robo, destrucción, divulgación, modificación de datos o denegación de servicio (DOS).',
     },
     {
       termino: 'Auditoría',
@@ -309,7 +309,7 @@ export default {
     {
       termino: 'Ciberseguridad',
       significado:
-        'condición caracterizada por un mínimo de riesgos y amenazas a la infraestructura tecnológicas, los componentes lógicos de la información y las interacciones en el ciberespacio',
+        'condición caracterizada por un mínimo de riesgos y amenazas a la infraestructura tecnológica, los componentes lógicos de la información y las interacciones en el ciberespacio.',
     },
     {
       termino: 'Cifrado',
@@ -317,7 +317,7 @@ export default {
         'proceso de codificación de información sensible para poder evitar que esta llegue a personas no autorizadas.',
     },
     {
-      termino: 'Delito Informático',
+      termino: 'Delito informático',
       significado:
         'comportamientos ilícitos que se llevan a cabo mediante herramientas electrónicas para atacar contra la seguridad de los datos informáticos.',
     },
@@ -339,11 +339,11 @@ export default {
     {
       termino: 'Hacker',
       significado:
-        'persona experta en tecnología dedicada a intervenir y /o realizar alteraciones técnicas con buenas o malas intenciones.',
+        'persona experta en tecnología dedicada a intervenir y/o realizar alteraciones técnicas con buenas o malas intenciones.',
     },
     {
       termino: 'ISO',
-      significado: 'International Organization for Standardization.',
+      significado: ' International Organization for Standardization.',
     },
     {
       termino: 'Opex',
@@ -359,7 +359,7 @@ export default {
   complementario: [
     {
       texto:
-        'Cisco Networking Academy. (8 de junio de 2020). CCNA 7: Switching, Routing, and Wireless Essentials. https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials',
+        'Cisco Networking Academy. (8 de junio de 2020). CCNA 7: Switching, Routing, and Wireless Essentials.',
       tipo: 'Capítulo de curso en línea.',
       link:
         'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials ',
@@ -388,6 +388,40 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Carlos Mauricio Tovar Artunduaga',
+        cargo: 'Experto temático',
+        centro: 'Centro de Servicios y Gestión Empresarial Regional Antioquia',
+      },
+      {
+        nombre: 'Jorge Eliécer Loaiza Muñoz',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Diseño e Innovación Tecnológica Industrial Regional Antioquia',
+      },
+      {
+        nombre: 'Claudia López Arboleda',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de Teleinformática y Producción Industrial Regional Cauca',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional  Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -414,13 +448,22 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: [
+          'Ángela María Maldonado Jaime',
+          'Carlos Eduardo Garavito Parada',
+          'Gilberto Junior Rodríguez Rodríguez',
+          'Lina Marcela Pérez Manchego',
+          'María Carolina Tamayo López',
+          'Víctor Raúl Cárdenas Cáceres',
+          'Wilson Andrés Arenales Cáceres',
+          'Zuleidy Maria Ruiz Torres',
+        ],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

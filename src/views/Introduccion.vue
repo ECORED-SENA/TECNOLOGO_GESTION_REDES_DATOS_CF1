@@ -13,11 +13,11 @@
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
     .row.justify-content-center
       .col-lg-11
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-4.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/introduccion/img1.svg', alt="Seguridad de la información").mx-auto
+                img(src='@/assets/curso/introduccion/img1.svg', alt="Seguridad de la información", style="width:313px;").mx-auto
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p La seguridad de la información, hoy por hoy, es uno de los temas más importantes en el mundo tecnológico, debido al incremento elevado de los ataques cibernéticos a los que los usuarios están expuestos. Los smartphones pasaron de ser una moda a ser una herramienta de trabajo y/o también un estilo de vida. Los ciberatacantes, día a día, se las ingenian para que los usuarios caigan en sus nuevas fechorías, sin que estos últimos lo sepan; es por esta razón que hay organizaciones que exigen tratar los datos haciendo uso de estándares los cuales disminuyen esa brecha de riesgo.
