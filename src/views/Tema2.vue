@@ -49,7 +49,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-4 Subsistema de gestión de Seguridad de la Información del Ministerio de la Salud
+                  h3.mb-4 Subsistema de Gestión de Seguridad de la Información del Ministerio de la Salud
                   p.text-medium Políticas del sistema de gestión de seguridad para divulgar el adecuado tratamiento de la información en la Superintendencia Nacional de Salud.
                 .col-sm-auto
                   a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo-2.pdf')" target="_blank")
@@ -294,13 +294,13 @@
     .titulo-sexto.color-acento-contenido
       h5 Estructura ISO-27001
 
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-botones.mb-5 
       table
         
         thead
           tr
-            th.h3(style='width: 50%; background-color: rgb(236 242 255); color:#37A3A5;') Aspecto
-            th.h3(style=' background-color: rgb(236 242 255); color:#37A3A5;') Contenido    
+            th.h3(style='width: 50%; background-color: #e8e8e8; color:#37A3A5;') Aspecto
+            th.h3(style=' background-color: #e8e8e8; color:#37A3A5;') Contenido    
         tbody
           tr
             td.text-center Objeto y campo de aplicación

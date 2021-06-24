@@ -360,7 +360,7 @@ export default {
     {
       texto:
         'Cisco Networking Academy. (8 de junio de 2020). CCNA 7: Switching, Routing, and Wireless Essentials.',
-      tipo: 'Capítulo de curso en línea.',
+      tipo: 'Capítulo de curso en línea',
       link:
         'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials ',
     },
@@ -436,28 +436,67 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Antonio Vecino Valero'],
+        nombre: ['Jesus Antonio Vecino Valero'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'John Andres Ayala Angarita',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: [
-          'Ángela María Maldonado Jaime',
-          'Carlos Eduardo Garavito Parada',
-          'Gilberto Junior Rodríguez Rodríguez',
-          'Lina Marcela Pérez Manchego',
-          'María Carolina Tamayo López',
-          'Víctor Raúl Cárdenas Cáceres',
-          'Wilson Andrés Arenales Cáceres',
-          'Zuleidy Maria Ruiz Torres',
-        ],
+        nombre: ['Ángela María Maldonado Jaime'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Carlos Eduardo Garavito Parada'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Gilberto Junior Rodríguez Rodríguez'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Lina Marcela Pérez Manchego'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Lina Marcela Pérez Manchego'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['María Carolina Tamayo López'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Víctor Raúl Cárdenas Cáceres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Wilson Andrés Arenales Cáceres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Zuleidy Maria Ruiz Torres'],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

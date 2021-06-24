@@ -287,7 +287,7 @@
 
     h3.mb-5 Filtros de paquete
     .cajon.color-acento-contenido.p-4.mb-5
-      p Se trata de una función presente en los routers que mejora la seguridad, es el filtrado MAC, el cual permite restringir el acceso a recursos de un dispositivo por ejemplo la red inalámbrica, acceso a Internet o servidor SAMBA.
+      p Se trata de una función presente en los routers que mejora la seguridad, es el filtrado MAC, el cual permite restringir el acceso a recursos de un dispositivo específico, por ejemplo la red inalámbrica, acceso a Internet o servidor SAMBA.
 
 
     h3.mb-5 Firewalls
@@ -355,7 +355,7 @@
               .bloque-texto-a__texto.p-4
                 p Un Sistema de Detección de Intrusos (IDS: Intrusion Detection System), se implementa para detectar actividades inadecuadas, incorrectas o irregulares, ocurridas en el interior o exterior de los dispositivos e infraestructura de la red.
 
-    p.mb-4 El IDS está basado en el patrón de comportamiento del intruso que es diferente al del usuario legítimo, por medio de análisis de estadísticas de uso. El IDS utiliza el uso de programas, archivos y dispositivos, a corto, mediano y largo plazo para crear los patrones de comportamiento de usuarios que permitan realizar la detección efectiva; también usa un sistema de reglas predefinidas llamadas firmas o rúbricas para representar las violaciones conocidas.
+    p.mb-5 El IDS está basado en el patrón de comportamiento del intruso que es diferente al del usuario legítimo, por medio de análisis de estadísticas de uso. El IDS utiliza el uso de programas, archivos y dispositivos, a corto, mediano y largo plazo para crear los patrones de comportamiento de usuarios que permitan realizar la detección efectiva; también usa un sistema de reglas predefinidas llamadas firmas o rúbricas para representar las violaciones conocidas.
     h3.mb-4 Funcionalidad
 
     .row.justify-content-center.mb-4
@@ -611,7 +611,7 @@
         .col-md.col-lg-6
           .titulo-segundo.mb-4
             h3 Análisis de seguridad de la red
-            p.mb-4 El análisis de la seguridad en la red se debe realizar para detectar irregularidades, comportamiento inusual de usuarios y demás amenazas. Para ello, se almacenan datos de la organización, se convierten en información accionable, de manera que los profesionales de tecnología de la información (TI) actúen con rapidez y se minimicen los riesgos.
+          p.mb-4 El análisis de la seguridad en la red se debe realizar para detectar irregularidades, comportamiento inusual de usuarios y demás amenazas. Para ello, se almacenan datos de la organización, se convierten en información accionable, de manera que los profesionales de tecnología de la información (TI) actúen con rapidez y se minimicen los riesgos.
           a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
@@ -640,7 +640,7 @@
     
     p.mb-4 Para presentar el resultado del análisis de riesgo se hace uso de una gráfica de dos dimensiones, donde, el eje #[strong x] horizontal representa la magnitud de daño y el eje #[strong y] vertical la probabilidad de amenaza. La probabilidad de amenaza y magnitud de daño pueden tomar condiciones entre insignificante (1) y muy alta (5). Aunque no es necesario dar valores numéricos a las condiciones de las variables, es útil porque, facilita el uso de hojas de cálculo en su representación. El análisis de riesgo permite ubicar los factores que influyen, positiva o negativamente.
 
-    .cajon.color-acento-contenido.p-4.mb-4
+    .cajon.color-acento-contenido.p-4.mb-5
           p Es importante reconocer que los riesgos son dinámicos, cambiantes, con diferentes caracteres de vulnerabilidad y con percepción distinta dependiendo del área que lo perciba, por tanto, deben participar los especialistas de todas las dependencias de la organización (gerencia, coordinación, administración financiera, técnicos, soporte técnico externo, etc.). Como conclusión de esta representación gráfica se puede observar que entre más alta la probabilidad de amenaza y magnitud de daño, más grande será el riesgo y el peligro al sistema, por lo cual se deben implementar medidas de protección. Esta representación se evidencia en la siguiente tabla:
 
     .titulo-sexto.color-acento-contenido.mb-2
@@ -721,14 +721,14 @@
 
     .row.justify-content-center.mb-4
       .col-lg-8
-        .tabla-b.color-secundario.mb-5
+        .tabla-b.color-secundario.mb-5(style="text-align: -webkit-center;")
           tbody.text-center
               
             tr
               td(style="font-size:20px;")
                 .row.justify-content-center
                   .col-auto(style=" background-color:#f00;")
-                    p.p-4.mb-0 #[strong Riesgo  muy alto (15 -25)]
+                    p.p-4.mb-0 #[strong Riesgo  muy alto (15 - 25)]
               
             
             tr
