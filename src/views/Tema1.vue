@@ -622,21 +622,9 @@
       .h2 1.8 Análisis de riesgos
 
     p.mb-5 La academia Cisco (2005), menciona que el análisis de riesgo tiene como objetivo determinar los componentes que requieren protección dentro del sistema, las amenazas que lo colocan en peligro y las vulnerabilidades que los debilitan con el fin de evaluar el grado de riesgo. En el campo de la seguridad informática, el método más usado para el análisis y valoración del riesgo está basado en la siguiente fórmula matemática:
-    .row.justify-content-center
-      .col-lg-8
-        .cajon.color-acento-contenido.p-4.mb-5
-          .h4.mb-0.text-center Riesgo = Magnitud de Daño * Probabilidad de Amenaza
-
-    .row.justify-content-center.mb-4
-      .col-auto.align-self-center.mb-4
-        figure
-          img(src='@/assets/curso/tema1/img16.svg', alt="Formula Análisis de Riesgo", style="width:100%;").mx-auto
-      .col-auto.mb-4
-        figure
-          img(src='@/assets/curso/tema1/img17.svg', alt="Formula Análisis de Riesgo", style="width:100%;").mx-auto
-      .col-auto.align-self-center.mb-4
-        figure
-          img(src='@/assets/curso/tema1/img18.svg', alt="Formula Análisis de Riesgo", style="width:100%;").mx-auto
+    .row.justify-content-center.mb-5
+      .col-lg-6.align-self-center(style="background-color:#00223d;").p-4
+          .h4.mb-0.text-center(style="color:#ffff !important;") Riesgo = Magnitud de Daño * Probabilidad de Amenaza
     
     p.mb-4 Para presentar el resultado del análisis de riesgo se hace uso de una gráfica de dos dimensiones, donde, el eje #[strong x] horizontal representa la magnitud de daño y el eje #[strong y] vertical la probabilidad de amenaza. La probabilidad de amenaza y magnitud de daño pueden tomar condiciones entre insignificante (1) y muy alta (5). Aunque no es necesario dar valores numéricos a las condiciones de las variables, es útil porque, facilita el uso de hojas de cálculo en su representación. El análisis de riesgo permite ubicar los factores que influyen, positiva o negativamente.
 
@@ -646,8 +634,8 @@
     .titulo-sexto.color-acento-contenido.mb-2
       h5 Representación gráfica análisis
 
-    .row.justify-content-center.mb-5
-      .col-lg-12
+    .row.justify-content-center.mb-2
+      .col-lg-10
         .tabla-b.color-secundario.mb-5
           .tabla-b__header
             h4.mb-0(style="font-size:25px;") Análisis de riesgo
@@ -707,9 +695,7 @@
               th(style="font-size:20px; background-color:#ff3;") 6
               th(style="font-size:20px; background-color:#ff3;") 8
               th(style="border-right: 1px solid #000;font-size:20px; background-color:#ff9b04;") 10
-            tr
-              
-              
+            tr           
               th(style="font-size:20px;") Insignificante
               th(style="font-size:20px;") 1
               th(style="background-color:#0f0; font-size:20px;") 1
@@ -717,10 +703,9 @@
               th(style="background-color:#0f0; font-size:20px;") 3
               th(style="background-color:#0f0; font-size:20px;") 4
               th(style="border-right: 1px solid #000; font-size:20px; background-color:#ff3;") 5
-
-
+    
     .row.justify-content-center.mb-4
-      .col-lg-8
+      .col-lg-10.align-self-center
         .tabla-b.color-secundario.mb-5(style="text-align: -webkit-center;")
           tbody.text-center
               
@@ -728,28 +713,26 @@
               td(style="font-size:20px;")
                 .row.justify-content-center
                   .col-auto(style=" background-color:#f00;")
-                    p.p-4.mb-0 #[strong Riesgo  muy alto (15 - 25)]
-              
+                    p.p-0.mb-0 
+                      strong Riesgo  muy alto <br>(15 - 25)  
             
-            tr
               td(style="font-size:20px; ")
                 .row.justify-content-center
                   .col-auto(style="background-color:#ff9b04;")
-                    p.p-4.mb-0 #[strong Riesgo alto (10 - 14)]
-              
-
-            tr
+                    p.p-0.mb-0 
+                      strong Riesgo alto <br>(10 - 14)
+                
               td(style="font-size:20px;")
                 .row.justify-content-center
                   .col-auto(style=" background-color:#ff3;")
-                    p.p-4.mb-0 #[strong Riesgo medio (5 - 9)]
-              
-            
-            tr
+                    p.p-0.mb-0 
+                      strong Riesgo medio<br>(5 - 9)
+
               td(style="font-size:20px;")
                 .row.justify-content-center
                   .col-auto(style="background-color:#0f0;")
-                    p.p-4.mb-0 #[strong Riesgo bajo (1 - 4)]
+                    p.p-0.mb-0 
+                      strong Riesgo bajo <br>(1 - 4)
               
 
 
