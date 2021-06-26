@@ -171,7 +171,14 @@
                 img(src='@/assets/curso/tema1/img5.svg', alt="Herramientas de seguridad", style="width:100%;").mx-auto
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Pueden utilizarse para revisar la seguridad de un sistema con buenas o con malas intenciones. Si no se revisa la seguridad del sistema, alguien lo hará. Por ejemplo, se encuentran los analizadores de red, que buscan equipos en la red, hacen barridos de puertos y descubrimiento de servicios, analizando los resultados para inferir información, como versión, tipo de sistema y/o servicios para exponer deficiencias de seguridad. Algunos de los más utilizados son nmap, SATAN y SAINT.
+                p.mb-4 Pueden utilizarse para revisar la seguridad de un sistema con buenas o con malas intenciones. Si no se revisa la seguridad del sistema, alguien lo hará. Por ejemplo, se encuentran los analizadores de red, que buscan equipos en la red, hacen barridos de puertos y descubrimiento de servicios, analizando los resultados para inferir información, como versión, tipo de sistema y/o servicios para exponer deficiencias de seguridad. Algunos de los más utilizados son nmap, SATAN y SAINT.
+                .row.justify-content-end
+                  .col-auto
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/Herramientas de seguridad.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg")
+                      .anexo__texto
+                        p Herramientas de seguridad.
 
     p.mb-5 Otro tipo de herramientas son los analizadores de seguridad para localizar todo tipo de posibles problemas que permiten detectar y exponer aplicaciones conocidas por su fragilidad, configuraciones particulares inseguras, uso de claves predefinidas y múltiples bugs y sus exploits. Uno de estos analizadores es Nessus:
 
@@ -207,7 +214,7 @@
           .titulo-segundo.mb-4
             h3 Autenticación
           p.mb-4 El procedimiento de autenticación se lleva a cabo por parte del administrador de servicios quien autoriza los servicios a ejecutar en el dominio y los usuarios permitidos para utilizar las herramientas del sistema informático; los tipos de autenticación que se pueden configurar son los siguientes.
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/infografía_autenticación.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     
@@ -231,17 +238,89 @@
         figure
           img(src='@/assets/curso/tema1/img8.svg', alt="Autorización", style="width:510px;").mx-auto
 
-    .tarjeta.color-secundario.p-4.p-md-5.mb-5
-      .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/curso/tema1/img7.svg", alt="Auditorías", style="width:80%;").mx-auto
-        .col-md.col-lg-6
-          .titulo-segundo.mb-4
-            h3 Auditorías
-          p.mb-4 Es el estudio que comprende el análisis y gestión de sistemas llevados a cabo por profesionales para identificar, enumerar y posteriormente describir las diversas vulnerabilidades que pudieran presentarse en una revisión exhaustiva de las estaciones de trabajo, redes de comunicaciones o servidores. Una vez obtenidos los resultados, se detallan, archivan y reportan a los responsables quienes deberán establecer medidas preventivas de refuerzo y/o corrección siguiendo siempre un proceso secuencial que permita a los administradores mejorar la seguridad de sus sistemas aprendiendo de los errores cometidos con anterioridad (Cómo administrar tu propio negocio, 2014).
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
-            span Descargar
-            i.fas.fa-file-download
+    .h3.mb-4 Auditorías
+    p.mb-5 Es el estudio que comprende el análisis y gestión de sistemas llevados a cabo por profesionales para identificar, enumerar y posteriormente describir las diversas vulnerabilidades que pudieran presentarse en una revisión exhaustiva de las estaciones de trabajo, redes de comunicaciones o servidores. Una vez obtenidos los resultados, se detallan, archivan y reportan a los responsables quienes deberán establecer medidas preventivas de refuerzo y/o corrección siguiendo siempre un proceso secuencial que permita a los administradores mejorar la seguridad de sus sistemas aprendiendo de los errores cometidos con anterioridad (Cómo administrar tu propio negocio, 2014).
+    .row.mb-5.justify-content-center
+      .col-lg-10.mb-4
+        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 1
+          .h4.text-center 
+            | Auditoría forense
+          p.text-center Es un servicio especializado para actuar ante un incidente de seguridad con el fin de recopilar evidencias digitales que permitan reunir la mayor información posible sobre el ilícito y sus operaciones.Es un servicio especializado para actuar ante un incidente de seguridad con el fin de recopilar evidencias digitales que permitan reunir la mayor información posible sobre el ilícito y sus operaciones.
+
+      .col-lg-10.mb-4
+        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 2
+          .h4.text-center
+            | Auditorías de código
+          p.text-center Se refiere a pruebas de calidad del código fuente que permita identificar vulnerabilidades ante ataques informáticos y también ante el crecimiento de la demanda que la actividad realiza al software.
+
+      .col-lg-10.mb-4
+        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 3
+          .h4.text-center 
+            | Auditoría web
+          p.text-center Este análisis está orientado a conocer las propiedades de las aplicaciones digitales y servicios web utilizados a diario en la estrategia de negocio para adelantarse a posibles riesgos y optimizar así la seguridad.
+
+      .col-lg-10.mb-4
+        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 4
+          .h4.text-center 
+            | Actualización de dispositivos 
+          p.text-center Hace referencia a verificar la actualización del software, antivirus y comprobar el cumplimiento de las reglas de firewalls.
+
+      .col-lg-10.mb-4
+        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 5
+          .h4.text-center 
+            | Hacking ético
+          p.text-center Se ponen a prueba las medidas de seguridad realizando un test de intrusión con técnicas de hacking, y tener así evidencia de la reacción.
+
+      .col-lg-10.mb-4
+        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 6
+          .h4.text-center 
+            | Auditoría de redes
+          p.text-center Se provee un mapeo de todos los dispositivos conectados a la red interna, el estado de las conexiones y la actividad de los dispositivos gestionados.
+      
+      .col-lg-10.mb-4
+        //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 7
+          .h4.text-center 
+            | Auditoría física
+          p.text-center Usado para proteger perimetralmente a la red a partir de controles físicos de entrada, alarmas contra incendios, sistemas de video vigilancia, el estado de las instalaciones de servicio de energía, agua y gas, entre otros.
+      
+
+
+
 
     h3.mb-4 Cifrados
 
@@ -612,7 +691,7 @@
           .titulo-segundo.mb-4
             h3 Análisis de seguridad de la red
           p.mb-4 El análisis de la seguridad en la red se debe realizar para detectar irregularidades, comportamiento inusual de usuarios y demás amenazas. Para ello, se almacenan datos de la organización, se convierten en información accionable, de manera que los profesionales de tecnología de la información (TI) actúen con rapidez y se minimicen los riesgos.
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Infografia_CF3_ExamenFisico.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Analisis de seguridad de la Red.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
