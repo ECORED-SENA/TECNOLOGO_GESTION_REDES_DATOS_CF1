@@ -239,7 +239,8 @@
           img(src='@/assets/curso/tema1/img8.svg', alt="Autorización", style="width:510px;").mx-auto
 
     .h3.mb-4 Auditorías
-    p.mb-5 Es el estudio que comprende el análisis y gestión de sistemas llevados a cabo por profesionales para identificar, enumerar y posteriormente describir las diversas vulnerabilidades que pudieran presentarse en una revisión exhaustiva de las estaciones de trabajo, redes de comunicaciones o servidores. Una vez obtenidos los resultados, se detallan, archivan y reportan a los responsables quienes deberán establecer medidas preventivas de refuerzo y/o corrección siguiendo siempre un proceso secuencial que permita a los administradores mejorar la seguridad de sus sistemas aprendiendo de los errores cometidos con anterioridad (Cómo administrar tu propio negocio, 2014).
+    p.mb-4 Es el estudio que comprende el análisis y gestión de sistemas llevados a cabo por profesionales para identificar, enumerar y posteriormente describir las diversas vulnerabilidades que pudieran presentarse en una revisión exhaustiva de las estaciones de trabajo, redes de comunicaciones o servidores. Una vez obtenidos los resultados, se detallan, archivan y reportan a los responsables quienes deberán establecer medidas preventivas de refuerzo y/o corrección siguiendo siempre un proceso secuencial que permita a los administradores mejorar la seguridad de sus sistemas aprendiendo de los errores cometidos con anterioridad (Cómo administrar tu propio negocio, 2014).
+    p.mb-5 De acuerdo con lo que afirma USS Seguridad (2019), dependiendo de los fines de la auditoría, es posible contratar profesionales externos con un objetivo concreto en el análisis informático, y este puede ser:
     .row.mb-5.justify-content-center
       .col-lg-10.mb-4
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
