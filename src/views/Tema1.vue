@@ -250,7 +250,7 @@
             .h2 1
           .h4.text-center 
             | Auditoría forense
-          p.text-center Es un servicio especializado para actuar ante un incidente de seguridad con el fin de recopilar evidencias digitales que permitan reunir la mayor información posible sobre el ilícito y sus operaciones.Es un servicio especializado para actuar ante un incidente de seguridad con el fin de recopilar evidencias digitales que permitan reunir la mayor información posible sobre el ilícito y sus operaciones.
+          p.text-center Es un servicio especializado para actuar ante un incidente de seguridad con el fin de recopilar evidencias digitales que permitan reunir la mayor información posible sobre el ilícito y sus operaciones.
 
       .col-lg-10.mb-4
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
