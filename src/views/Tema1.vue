@@ -174,7 +174,7 @@
                 p.mb-4 Pueden utilizarse para revisar la seguridad de un sistema con buenas o con malas intenciones. Si no se revisa la seguridad del sistema, alguien lo hará. Por ejemplo, se encuentran los analizadores de red, que buscan equipos en la red, hacen barridos de puertos y descubrimiento de servicios, analizando los resultados para inferir información, como versión, tipo de sistema y/o servicios para exponer deficiencias de seguridad. Algunos de los más utilizados son nmap, SATAN y SAINT.
                 .row.justify-content-end
                   .col-auto
-                    a.anexo.mb-4(:href="obtenerLink('/downloads/Herramientas de seguridad.pdf')" target="_blank")
+                    a.anexo.mb-4(:href="obtenerLink('downloads/Herramientas_de_seguridad.pdf')" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg")
                       .anexo__texto
@@ -214,7 +214,7 @@
           .titulo-segundo.mb-4
             h3 Autenticación
           p.mb-4 El procedimiento de autenticación se lleva a cabo por parte del administrador de servicios quien autoriza los servicios a ejecutar en el dominio y los usuarios permitidos para utilizar las herramientas del sistema informático; los tipos de autenticación que se pueden configurar son los siguientes.
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/infografía_autenticación.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('downloads/infografía_autenticación.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     
@@ -415,7 +415,7 @@
 
     .row.mb-5.justify-content-end
       .col-lg-5
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Firewall.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('downloads/Firewall.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -692,7 +692,7 @@
           .titulo-segundo.mb-4
             h3 Análisis de seguridad de la red
           p.mb-4 El análisis de la seguridad en la red se debe realizar para detectar irregularidades, comportamiento inusual de usuarios y demás amenazas. Para ello, se almacenan datos de la organización, se convierten en información accionable, de manera que los profesionales de tecnología de la información (TI) actúen con rapidez y se minimicen los riesgos.
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Analisis de seguridad de la Red.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('downloads/Analisis_de_seguridad_de_la_Red.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 

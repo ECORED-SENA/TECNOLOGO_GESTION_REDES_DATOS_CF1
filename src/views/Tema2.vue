@@ -36,7 +36,7 @@
                   h3.mb-4 Sistema de gestión de seguridad de la Contraloría General de la República
                   p.text-medium Políticas del sistema de gestión de seguridad y la importancia   del rol del tecnólogo como parte activa de la seguridad en la entidad.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo-1.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo-1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -52,7 +52,7 @@
                   h3.mb-4 Subsistema de Gestión de Seguridad de la Información del Ministerio de la Salud
                   p.text-medium Políticas del sistema de gestión de seguridad para divulgar el adecuado tratamiento de la información en la Superintendencia Nacional de Salud.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo-2.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo-2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -68,7 +68,7 @@
                   h3.mb-4 Seguridad en Tecnología de la Información DIAN
                   p.text-medium Políticas del sistema de gestión de seguridad.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo-3.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo-3.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
